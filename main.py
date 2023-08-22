@@ -5,6 +5,7 @@ def process_function():
     bot = ShurasBot()
     bot.run_bot()
 
+
 def main():
     num_processes = int(input("Введите количество процессов: "))
     processes = []
@@ -17,6 +18,6 @@ def main():
     for process in processes:
         process.join()
 
+
 if __name__ == "__main__":
     main()
-
